@@ -23,7 +23,7 @@
 
 ## 仅链接的受限产品
 
-- https://job-change-observatory.yydshly.chatgpt.site：V0.3，固定100条基线样本。首次计划采样2026-10-08尚未运行，不伪称已有变化结果
+- https://job-change-observatory.yydshly.chatgpt.site：V0.4历史快照对比已受限部署，仍只有一份100条真实基线，不伪称已有跨期变化结果
 - https://device-bridge-lab.yydshly.chatgpt.site：协议CI与12项真实RTC检查通过，4个合成文件字节校验一致；仅同一Linux环境两个Chromium实例，iPad、跨网络及生产登录待验收
 - https://expert-decision-room.yydshly.chatgpt.site：实际MiniMax对话原型，认证不变；14项模拟响应界面检查通过（桌面与390px），与5次真实MiniMax调用分别记录，不声称生产模型端到端验收；不公开私人聊天或模型凭证
 
@@ -37,6 +37,19 @@ API密钥、OAuth凭证、账户身份文件、私人聊天记录、未通过的
 
 ## 新增公开来源入口
 
-- 短剧源码与系列方案：https://github.com/yydshly/ai-roommate-series 。完整配音、五个后续提案与第二集剧本；第二集未制作
+- 短剧源码与系列方案：https://github.com/yydshly/ai-roommate-series 。完整配音、五个后续提案与第二集剧本；第二集制作中；已有24秒动作样段，只有音效、没有新对白，尚无完整成片
 - 设备实传记录：https://github.com/yydshly/device-exchange/blob/main/docs/rtc-e2e-2026-10-07.md
 - 专家决策室界面记录：https://github.com/yydshly/expert-decision-room/tree/main/docs/ui-verification-2026-10-07
+
+
+## 本次制作中增量
+
+- `assets/roommate-episode-02-action-study.mp4`：24秒、1280×720，859,540字节；只有音效没有新对白，研究动作样段，不是完整第二集
+- `assets/roommate-episode-02-action-poster.jpg`：从上述样段提取的实际画面
+- `research/art-003/index.html`：独立审查页；003明确未获认可，本次没有新成片；笔记仅保存在访客浏览器本地，可导出，不上传
+- `research/art-003/study.mp4`：已存在的36秒研究样片，14,038,945字节，SHA256 aba8b2abb275ec4398d6223a392ae59a6477bd41f307338dc3aa2e300be25740
+- `research/art-003/shot-01.jpg`至`shot-07.jpg`：该既有样片的实际编码帧
+- `research/art-003/report.json`、`study.json`、`sources.json`：技术审查、镜头结构和来源。两件莫奈馆藏来自芝加哥艺术博物馆公开领域/CC0资料，信用行在审查页保留
+- 海底版本db1f921仍整体未达标；专家决策室新增追溯待UI验收；设备取消重传修复进行中
+
+001、第一集完整配音成片和原提示词不变。API后端、登录权限不变，不公开任何新凭证或私人对话。

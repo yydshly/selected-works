@@ -20,4 +20,15 @@
 
 - [设备实传记录](https://github.com/yydshly/device-exchange/blob/main/docs/rtc-e2e-2026-10-07.md)：同一Linux环境中两个Chromium实例完成12项真实RTC检查，4个合成文件字节校验一致；iPad、跨网络与生产登录待验收
 - [专家决策室界面记录](https://github.com/yydshly/expert-decision-room/tree/main/docs/ui-verification-2026-10-07)：14项模拟响应界面检查通过，覆盖桌面及390px窄屏；另有5次真实MiniMax调用，不将两类验证合称生产模型端到端验收
-- [短剧源码与系列方案](https://github.com/yydshly/ai-roommate-series)：包含已展示的完整配音、五个后续提案及第二集剧本，第二集尚未制作
+- [短剧源码与系列方案](https://github.com/yydshly/ai-roommate-series)：包含已展示的完整配音、五个后续提案及第二集剧本，第二集制作中，已增加24秒音效动作样段，尚无新对白及完整成片
+
+
+## 制作中增量（2026-10-07）
+
+- 新增独立试看与审查区，保留001与短剧第一集为主展示
+- `research/art-003/`：已有36秒003研究样片、7张实际编码画面、逐镜定位、浏览器本地笔记及来源；003未获认可，本次没有新成片
+- 第二集24秒动作样段：只有音效、没有新对白，完整集仍制作中
+- 海底公开版本db1f921，整体视觉仍未达标
+- 岗位V0.4历史对比已受限部署，但只有一份真实基线
+- 专家决策室参考对话追溯已受限部署，新增界面待验收
+- 设备取消/重传修复进行中，既有受控双Chromium验证不扩展为跨网络/iPad验收
