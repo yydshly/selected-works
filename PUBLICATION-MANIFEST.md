@@ -24,8 +24,8 @@
 ## 仅链接的受限产品
 
 - https://job-change-observatory.yydshly.chatgpt.site：V0.3，固定100条基线样本。首次计划采样2026-10-08尚未运行，不伪称已有变化结果
-- https://device-bridge-lab.yydshly.chatgpt.site：协议CI检查通过，真实RTC端到端待验证
-- https://expert-decision-room.yydshly.chatgpt.site：实际MiniMax对话原型，认证不变，不公开私人聊天或模型凭证
+- https://device-bridge-lab.yydshly.chatgpt.site：协议CI与12项真实RTC检查通过，4个合成文件字节校验一致；仅同一Linux环境两个Chromium实例，iPad、跨网络及生产登录待验收
+- https://expert-decision-room.yydshly.chatgpt.site：实际MiniMax对话原型，认证不变；14项模拟响应界面检查通过（桌面与390px），与5次真实MiniMax调用分别记录，不声称生产模型端到端验收；不公开私人聊天或模型凭证
 
 ## 不包含
 
@@ -34,3 +34,9 @@ API密钥、OAuth凭证、账户身份文件、私人聊天记录、未通过的
 ## 权利说明
 
 四件馆藏图像在制作归档中均核验为Public Domain，依The Met Open Access / CC0使用，信用行在页面保留。原创程序动画、合成声景和匿名生成肖像有单独记录；未采用蒙德里安受限图像。短剧为原创虚构角色、合成对白、合成音乐与音效。公开展示不代表统一授予全部素材的任意再许可。
+
+## 新增公开来源入口
+
+- 短剧源码与系列方案：https://github.com/yydshly/ai-roommate-series 。完整配音、五个后续提案与第二集剧本；第二集未制作
+- 设备实传记录：https://github.com/yydshly/device-exchange/blob/main/docs/rtc-e2e-2026-10-07.md
+- 专家决策室界面记录：https://github.com/yydshly/expert-decision-room/tree/main/docs/ui-verification-2026-10-07

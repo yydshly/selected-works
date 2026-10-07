@@ -15,3 +15,9 @@
 详见 [公开内容清单](PUBLICATION-MANIFEST.md)。只收录已选定的001成片；002未通过样片不包含在本包。公开源码不改变已链接产品的登录、授权或后端访问。
 
 没有密钥、私人对话、账号配置、生成语音账户数据、后端代码或缓存。公开展示不等于对整个项目授予统一的开源许可；馆藏素材条件与署名见页面底部和 `assets/artwork-sources.json`。
+
+## 验证状态（2026-10-07）
+
+- [设备实传记录](https://github.com/yydshly/device-exchange/blob/main/docs/rtc-e2e-2026-10-07.md)：同一Linux环境中两个Chromium实例完成12项真实RTC检查，4个合成文件字节校验一致；iPad、跨网络与生产登录待验收
+- [专家决策室界面记录](https://github.com/yydshly/expert-decision-room/tree/main/docs/ui-verification-2026-10-07)：14项模拟响应界面检查通过，覆盖桌面及390px窄屏；另有5次真实MiniMax调用，不将两类验证合称生产模型端到端验收
+- [短剧源码与系列方案](https://github.com/yydshly/ai-roommate-series)：包含已展示的完整配音、五个后续提案及第二集剧本，第二集尚未制作
